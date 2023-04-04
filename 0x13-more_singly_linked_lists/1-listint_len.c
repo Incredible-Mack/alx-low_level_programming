@@ -16,6 +16,6 @@ size_t listint_len(const listint_t *h)
 		tot += 1;
 		cursor = cursor->next;
 	}
-	return (tot)
+	return (tot);
 }
 
