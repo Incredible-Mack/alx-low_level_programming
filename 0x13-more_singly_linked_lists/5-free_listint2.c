@@ -1,27 +1,22 @@
 #include "lists.h"
 /**
- * free_listint2 - free list
+ * free_listint2 - linked list free more
  * @head : list
- *  variable t represnt tempoary variable
- * Return: sending void to function
+ * Return: function returning void
+ * variable t reps temp value
  */
-
-
 void free_listint2(listint_t **head)
 {
 listint_t *t;
+
 if (head == NULL)
 return;
 
 while (*head)
 {
-    
 t = *head;
 *head = (*head)->next;
 free(t);
-    
 }
 head = NULL;
-    
 }
-
