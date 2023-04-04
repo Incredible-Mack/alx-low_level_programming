@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * get_nodeint_at_index - finds a given node in a linked list
+ * get_nodeint_at_index - finding a given node
  * @head :  linked list pointer
  * @index:  node index
  * Return: if the node does not exist, return NULL / pointer
