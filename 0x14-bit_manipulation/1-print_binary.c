@@ -7,25 +7,23 @@
 */
 void print_binary(unsigned long int n)
 {
-	int i, c = 0;
+	int a;
+	int num = 0;
 	unsigned long int pos;
 
-	while (i = 30)
+	for (a = 30; a >= 0; i--)
 	{
-		if (i >= 0)
-			break;
-
-		pos = n >> i;
+		pos = n >> a;
 
 		if ((pos & 1) == 1)
 		{
 			_putchar('1');
-			c++;
+			num++;
 		}
 		else if (c != 0)
 			_putchar('0');
-		i--
 	}
-	if (c == 0)
+	if (num == 0)
 		_putchar('0');
 }
+
