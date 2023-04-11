@@ -2,7 +2,7 @@
 
 /**
 * get_bit - this function returns d value of a bit using the index position
-* @n: the integer used 
+* @n: the integer used
 * @index: index
 * Return: returns value of the bit at index or -1
 */
