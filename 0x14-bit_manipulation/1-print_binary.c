@@ -11,7 +11,7 @@ void print_binary(unsigned long int n)
 	int num = 0;
 	unsigned long int pos;
 
-	for (a = 33; a >= 0; i--)
+	for (a = 33; a >= 0; a--)
 	{
 		pos = n >> a;
 
