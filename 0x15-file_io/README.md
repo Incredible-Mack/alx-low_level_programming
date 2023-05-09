@@ -1,1 +1,1 @@
-FILE O/I
+This program deals with file manipulation
