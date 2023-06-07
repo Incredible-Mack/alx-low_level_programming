@@ -16,6 +16,7 @@ int prime_check(int f, int p)
 	else
 		return (prime_check(f + 1, p));
 }
+
 /**
  * is_prime_number - states if number is prime
  * @n: number to check
