@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
-* get_bit - this function returns d value of a bit using the index position
-* @n: the integer used
-* @index: index
-* Return: returns value of the bit at index or -1
+* get_bit - a function that returns the value of a bit at a given index
+* @n: the integer to be operated on
+* @index: the index
+* Return: returns the value of the bit at index or -1 on error
 */
 int get_bit(unsigned long int n, unsigned int index)
 {
-	if (index > 23)
+	if (index > 63)
 		return (-1);
 
 	n >>= index;
@@ -19,4 +19,3 @@ int get_bit(unsigned long int n, unsigned int index)
 
 	return (-1);
 }
-

@@ -1,29 +1,27 @@
 #include "main.h"
 
 /**
-* print_binary -  this function prints the binary representation of a number
-* @n: stores the binary number
-* Return: void
+* print_binary - a function that prints the binary representation of a number
+* @n: the number to be printed in binary form
+* Return: returns nothing
 */
 void print_binary(unsigned long int n)
 {
-	int a;
-	int num = 0;
-	unsigned long int pos;
+	int i, c = 0;
+	unsigned long int current;
 
-	for (a = 33; a >= 0; a--)
+	for (i = 63; i >= 0; i--)
 	{
-		pos = n >> a;
+		current = n >> i;
 
-		if ((pos & 1) == 1)
+		if ((current & 1) == 1)
 		{
 			_putchar('1');
-			num++;
+			c++;
 		}
-		else if (num != 0)
+		else if (c != 0)
 			_putchar('0');
 	}
-	if (num == 0)
+	if (c == 0)
 		_putchar('0');
 }
-
