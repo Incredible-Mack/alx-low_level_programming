@@ -2,7 +2,7 @@
 /**
  * _strcmp - compare string values
  * @s1: input value
- * @s2: input value
+ * @s2: input value vs
  *
  * Return: s1[i] - s2[i]
  */

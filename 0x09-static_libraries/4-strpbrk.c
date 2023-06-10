@@ -2,7 +2,7 @@
 /**
  * _strpbrk - Entry point
  * @s: input
- * @accept: input
+ * @accept: input val
  * Return: Always 0 (Success)
  */
 char *_strpbrk(char *s, char *accept)
